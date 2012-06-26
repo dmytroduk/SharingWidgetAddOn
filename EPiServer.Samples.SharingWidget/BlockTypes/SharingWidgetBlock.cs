@@ -4,7 +4,7 @@ using EPiServer.DataAnnotations;
 
 namespace EPiServer.Samples.SharingWidget.BlockTypes
 {
-    [ContentType(DisplayName = "ShareThis Block", 
+    [ContentType(DisplayName = "Sharing Widget Block", 
         Description = "Adds ShareThis widget on pages where block is placed.")]
     public class SharingWidgetBlock : BlockData
     {
