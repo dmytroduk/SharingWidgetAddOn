@@ -2,9 +2,9 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <title>ShareThis wigdet</title>
+    <title>Sharing wigdet</title>
     <version>$version$</version>
-    <authors>$author$</authors>
+    <authors>$author$, Dmytro Duk</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/dmytroduk/ShareThisAddOn</projectUrl>
     <iconUrl>http://w.sharethis.com/images/sharethis_32.png</iconUrl>

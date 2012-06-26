@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
-using EPiServer.Samples.ShareThis.BlockTypes;
-using EPiServer.Web.Mvc;
+using EPiServer.Samples.SharingAddOn.BlockTypes;
 using EPiServer.Shell;
+using EPiServer.Web.Mvc;
 
-namespace EPiServer.Samples.ShareThis.Controllers
+namespace EPiServer.Samples.SharingAddOn.Controllers
 {
     public class ShareThisController : BlockController<ShareThisBlock>
     {

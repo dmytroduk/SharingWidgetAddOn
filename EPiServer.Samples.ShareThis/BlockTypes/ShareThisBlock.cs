@@ -2,7 +2,7 @@
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 
-namespace EPiServer.Samples.ShareThis.BlockTypes
+namespace EPiServer.Samples.SharingAddOn.BlockTypes
 {
     [ContentType(DisplayName = "ShareThis Block", 
         Description = "Adds ShareThis widget on pages where block is placed.")]
