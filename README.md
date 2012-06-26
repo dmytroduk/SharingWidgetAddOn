@@ -3,7 +3,7 @@ Sample add-on for EPiServer 7 Preview
 
 Dependencies
 ------------
-Copy required EPiServer 7 Preview assemblies to Dependencies folder:
+Create Dependencies folder in the solution root directory. Copy required EPiServer 7 Preview assemblies to Dependencies folder:
 - EPiServer
 - EPiServer.BaseLibrary
 - EPiServer.Data 
