@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <title>Sharing wigdet</title>
+    <title>Sharing Wigdet</title>
     <version>$version$</version>
     <authors>$author$, Dmytro Duk</authors>
     <owners>$author$</owners>
-    <projectUrl>https://github.com/dmytroduk/ShareThisAddOn</projectUrl>
+    <projectUrl>https://github.com/dmytroduk/SharingWidgetAddOn</projectUrl>
     <iconUrl>http://w.sharethis.com/images/sharethis_32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Enables site visitors to share content in social networks and communities using ShareThis.com widget.</description>

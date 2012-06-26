@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="false" CodeBehind="ShareThis.ascx.cs" 
-    Inherits="EPiServer.Samples.SharingAddOn.Blocks.ShareThis, EPiServer.Samples.SharingAddOn" %>
+﻿<%@ Control Language="C#" AutoEventWireup="false" CodeBehind="SharingWidget.ascx.cs" 
+    Inherits="EPiServer.Samples.SharingWidget.Blocks.SharingWidget, EPiServer.Samples.SharingWidget" %>
 
 <script type="text/javascript">    var switchTo5x = true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>

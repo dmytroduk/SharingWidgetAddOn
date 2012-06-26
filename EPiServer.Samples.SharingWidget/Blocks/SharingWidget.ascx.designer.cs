@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EPiServer.Samples.SharingAddOn.Blocks {
+namespace EPiServer.Samples.SharingWidget.Blocks {
     
     
-    public partial class ShareThis {
+    public partial class SharingWidget {
     }
 }

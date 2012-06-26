@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EPiServer.Samples.SharingAddOn")]
+[assembly: AssemblyTitle("EPiServer.Samples.SharingWidget")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EPiServer AB")]
-[assembly: AssemblyProduct("EPiServer.Samples.SharingAddOn")]
+[assembly: AssemblyProduct("EPiServer.Samples.SharingWidget")]
 [assembly: AssemblyCopyright("Copyright © EPiServer AB 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
