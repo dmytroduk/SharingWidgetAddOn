@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServer.Samples.SharingAddOn", "EPiServer.Samples.ShareThis\EPiServer.Samples.SharingAddOn.csproj", "{2E31C022-499E-4C8C-B194-AD794ECF64F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServer.Samples.SharingAddOn", "EPiServer.Samples.SharingAddOn\EPiServer.Samples.SharingAddOn.csproj", "{2E31C022-499E-4C8C-B194-AD794ECF64F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D6697DE-1AED-412C-BC3E-677C9F34390C}"
 	ProjectSection(SolutionItems) = preProject
