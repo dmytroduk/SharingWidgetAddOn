@@ -4,7 +4,7 @@
     <id>$id$</id>
     <title>Sharing Wigdet</title>
     <version>$version$</version>
-    <authors>$author$, Dmytro Duk</authors>
+    <authors>$author$</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/dmytroduk/SharingWidgetAddOn</projectUrl>
     <iconUrl>http://w.sharethis.com/images/sharethis_32.png</iconUrl>
