@@ -4,13 +4,19 @@ using EPiServer.DataAnnotations;
 
 namespace EPiServer.Samples.SharingWidget.BlockTypes
 {
-    [ContentType(DisplayName = "Sharing Widget Block", 
-        Description = "Adds ShareThis widget on pages where block is placed.")]
+    /// <summary>
+    /// Sharing widget block type
+    /// </summary>
+    [ContentType(GUID = "A4242E8C-0FCC-4090-93D7-453EEEDA87DF")]
     public class SharingWidgetBlock : BlockData
     {
-        [Display(Name = "Publisher ID",
-            Description = "Register on ShareThis.com to get your Publisher ID.")]
+        /// <summary>
+        /// Gets or sets the ShareThis publisher ID.
+        /// </summary>
+        /// <value>
+        /// The publisher ID.
+        /// </value>
         [Required]
-        public virtual string PublisherID { get; set; }
+        public virtual string PublisherId { get; set; }
     }
 }

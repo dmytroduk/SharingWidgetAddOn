@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <blocktypes>
+      <!-- Blocks -->
+      <blocktype name="SharingWidgetBlock">
+        <name>Sharing Widget</name>
+        <description>Adds ShareThis widget on pages where block is placed.</description>
+      </blocktype>
+    </blocktypes>
+    <pagetypes>
+      <common>
+        <!-- Sharing block properties -->
+        <property name="PublisherId">
+          <caption>Publisher ID</caption>
+          <help>Register on ShareThis.com to get your Publisher ID.</help>
+        </property>
+      </common>
+    </pagetypes>
+  </language>
+</languages>

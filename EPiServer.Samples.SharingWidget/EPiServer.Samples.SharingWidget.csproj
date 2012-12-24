@@ -66,6 +66,7 @@
     <Content Include="Blocks\SharingWidget.ascx" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EmbeddedLangFiles\text_en.xml" />
     <Content Include="Views\SharingWidget\SharingWidget.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -73,7 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="EPiServer.Samples.SharingWidget.nuspec" />
+    <Content Include="module.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
@@ -95,11 +98,15 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
+  <!-- Creates add-on package using NuGet command line tool if NuGet.exe is found in Dependencies folder. -->
+  <Target Name="CreateAddOnPackage">
+    <PropertyGroup>
+      <NuGetExePath>..\Dependencies\NuGet.exe</NuGetExePath>
+    </PropertyGroup>
+    <Exec Command="&quot;$(NuGetExePath)&quot; pack $(ProjectFileName) -OutputDirectory $(OutDir)" Condition="Exists('$(NuGetExePath)')" />
   </Target>
+  <!-- Creating add-on package after build. -->
   <Target Name="AfterBuild">
+    <CallTarget Targets="CreateAddOnPackage" />
   </Target>
-  -->
 </Project>

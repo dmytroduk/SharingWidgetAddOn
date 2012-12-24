@@ -12,7 +12,7 @@
     <description>Enables site visitors to share the content in social networks and communities using ShareThis.com widget.</description>
     <tags>EPiServerPublicModulePackage Social Sharing ShareThis</tags>
     <dependencies>
-      <dependency id="EPiServer" version="[7.0,8.0)" />
+      <dependency id="EPiServer" version="[7.0,7.1)" />
     </dependencies>
   </metadata>
 </package>

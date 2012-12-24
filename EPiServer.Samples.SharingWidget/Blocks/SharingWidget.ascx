@@ -3,7 +3,7 @@
 
 <script type="text/javascript">    var switchTo5x = true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">    stLight.options({ publisher: "<%= CurrentBlock.PublisherID %>" }); </script>
+<script type="text/javascript">    stLight.options({ publisher: "<%= CurrentBlock.PublisherId %>" }); </script>
 
 <span class='st_twitter' displayText='Tweet'></span>
 <span class='st_facebook' displayText='Facebook'></span>

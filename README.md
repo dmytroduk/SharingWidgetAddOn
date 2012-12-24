@@ -1,22 +1,16 @@
-Sharing Widget add-on for EPiServer 7 Preview
+Sharing Widget add-on for EPiServer 7
 =====================================
 Enables site visitors to share the content in social networks and communities using ShareThis.com widget.
-Sample project to demonstrate simple add-on development step by step.
 
-Dependencies
+Sample project demonstrates simple add-on development step by step. Please see following blog posts:
+- [Developing simple add-on for EPiServer 7 Preview](http://dmytroduk.com/techblog/developing-simple-add-on-for-episerver-7-preview)
+
+Dependencies and tools
 ------------
-Create Dependencies folder in the solution root directory. Copy required EPiServer 7 Preview assemblies to Dependencies folder:
+Create Dependencies folder in the solution root directory. Copy required EPiServer 7 assemblies to Dependencies folder:
 - EPiServer
 - EPiServer.BaseLibrary
 - EPiServer.Data 
 - EPiServer.Shell
 
-Creating a package
-------------------
-Build the project. Download NuGet command line and use it to create the package:
-    
-    nuget pack EPiServer.Samples.SharingWidget.csproj
-
-<http://nuget.codeplex.com/releases>
-
-<http://docs.nuget.org/docs/reference/command-line-reference>
+Download [NuGet.exe command line](http://nuget.codeplex.com/releases) and put NuGet.exe tool to Dependencies folder. Add-on package will be created automatically after build.
