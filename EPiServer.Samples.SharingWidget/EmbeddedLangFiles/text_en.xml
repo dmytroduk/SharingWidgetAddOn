@@ -13,7 +13,7 @@
         <!-- Sharing block properties -->
         <property name="PublisherId">
           <caption>Publisher ID</caption>
-          <help>Register on ShareThis.com to get your Publisher ID.</help>
+          <help>Register on ShareThis.com to get your Publisher ID. You can also use "Get sharing tools" wizard on ShareThis.com to generate button code and get publisher ID without registration.</help>
         </property>
       </common>
     </pagetypes>
