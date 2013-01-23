@@ -59,7 +59,7 @@
       <DependentUpon>SharingWidget.ascx</DependentUpon>
     </Compile>
     <Compile Include="BlockTypes\SharingWidgetBlock.cs" />
-    <Compile Include="Controllers\SharingWidgetController.cs" />
+    <Compile Include="Controllers\SharingWidgetBlockController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
