@@ -4,6 +4,7 @@ Enables site visitors to share the content in social networks and communities us
 
 Sample project demonstrates simple add-on development step by step. Please see following blog posts:
 - [Developing simple add-on for EPiServer 7 Preview](http://dmytroduk.com/techblog/developing-simple-add-on-for-episerver-7-preview)
+- [Sharing Widget for EPiServer 7](http://dmytroduk.com/techblog/sharing-widget-for-episerver-7)
 
 Dependencies and tools
 ------------
